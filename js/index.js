@@ -46,7 +46,13 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 console.log(document);
 
 //Added header img to page
-let headerImage = document.getElementById('middle-img');
+let headerImage = document.getElementById('cta-img');
 headerImage.src = 'img/header-img.png';
 //checked that my code worked
 console.log(headerImage);
+
+//Added middle img
+let middleImage = document.querySelector('#middle-img');
+middleImage.src = 'img/mid-page-accent.jpg';
+//check that it works
+console.log(middleImage);
