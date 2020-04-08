@@ -46,13 +46,22 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 console.log(document);
 
 //Added header img to page
-let headerImage = document.getElementById('cta-img');
+const headerImage = document.getElementById('cta-img');
 headerImage.src = 'img/header-img.png';
 //checked that my code worked
 console.log(headerImage);
 
 //Added middle img
-let middleImage = document.querySelector('#middle-img');
+const middleImage = document.querySelector('#middle-img');
 middleImage.src = 'img/mid-page-accent.jpg';
 //check that it works
 console.log(middleImage);
+
+//Updating text content in the navbar
+const navLinks = document.querySelectorAll('header nav a');
+navLinks[0].textContent = 'Services';
+navLinks[1].textContent = 'Products';
+navLinks[2].textContent = 'Vision';
+navLinks[3].textContent = 'Features';
+navLinks[4].textContent = 'About';
+navLinks[5].textContent = 'Contact';
