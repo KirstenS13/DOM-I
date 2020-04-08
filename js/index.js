@@ -69,3 +69,7 @@ navLinks[5].textContent = 'Contact';
 //Updating h1 text content
 const mainHeader = document.querySelector('.cta-text h1');
 mainHeader.textContent = 'DOM IS AWESOME';
+
+//Updating header button text content
+const headerButton = document.querySelector('.cta-text button');
+headerButton.textContent = 'Get Started';
