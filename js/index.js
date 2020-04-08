@@ -42,4 +42,11 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 //My code
+//checked that my code worked
 console.log(document);
+
+//Added header img to page
+let headerImage = document.getElementById('middle-img');
+headerImage.src = 'img/header-img.png';
+//checked that my code worked
+console.log(headerImage);
