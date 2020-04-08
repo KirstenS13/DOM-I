@@ -65,3 +65,7 @@ navLinks[2].textContent = 'Vision';
 navLinks[3].textContent = 'Features';
 navLinks[4].textContent = 'About';
 navLinks[5].textContent = 'Contact';
+
+//Updating h1 text content
+const mainHeader = document.querySelector('.cta-text h1');
+mainHeader.textContent = 'DOM IS AWESOME';
