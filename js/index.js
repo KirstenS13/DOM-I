@@ -60,15 +60,22 @@ console.log(middleImage);
 //Updating text content in the navbar
 const navLinks = document.querySelectorAll('header nav a');
 navLinks[0].textContent = 'Services';
-navLinks[1].textContent = 'Products';
+navLinks[1].textContent = 'Product';
 navLinks[2].textContent = 'Vision';
 navLinks[3].textContent = 'Features';
 navLinks[4].textContent = 'About';
 navLinks[5].textContent = 'Contact';
 
+//...........Dad's example.....................
+const titles = ['one', 'two', 'three'];
+titles.forEach((title, i) => {
+  console.log(title + ' ' + i);
+});
+//..........End Dad's example..................
+
 //Updating h1 text content
 const mainHeader = document.querySelector('.cta-text h1');
-mainHeader.textContent = 'DOM IS AWESOME';
+mainHeader.innerHTML = 'DOM <br> IS <br> AWESOME';
 
 //Updating header button text content
 const headerButton = document.querySelector('.cta-text button');
@@ -106,7 +113,7 @@ const addressLines = document.querySelectorAll('.contact p');
 //checking that the correct elements got selected
 console.log(addressLines);
 //updating text content of contact paragraphs
-addressLines[0].textContent = '123 Way 456 Street Somewhere, USA';
+addressLines[0].innerHTML = '123 Way 456 Street <br> Somewhere, USA';
 addressLines[1].textContent = '1 (888) 888-8888';
 addressLines[2].textContent = 'sales@greatidea.io';
 
