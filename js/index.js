@@ -109,3 +109,8 @@ console.log(addressLines);
 addressLines[0].textContent = '123 Way 456 Street Somewhere, USA';
 addressLines[1].textContent = '1 (888) 888-8888';
 addressLines[2].textContent = 'sales@greatidea.io';
+
+//selecting footer paragraph
+const footerPara = document.querySelector('footer p');
+//updating text content of footer paragraph
+footerPara.textContent = 'Copyright Great Idea! 2018';
