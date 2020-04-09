@@ -134,6 +134,11 @@ navLinks.forEach((link) => {
 //1st new element
 const firstNewLink = document.createElement('a');
 firstNewLink.textContent = 'Reviews';
+firstNewLink.style.color = 'green';
 document.querySelector('header nav').appendChild(firstNewLink);
 
 //2nd new element
+const secondNewLink = document.createElement('a');
+secondNewLink.textContent = 'Shop';
+secondNewLink.style.color = 'green';
+document.querySelector('header nav').prepend(secondNewLink);
