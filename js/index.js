@@ -69,6 +69,8 @@ navLinks[2].textContent = 'Vision';
 navLinks[3].textContent = 'Features';
 navLinks[4].textContent = 'About';
 navLinks[5].textContent = 'Contact';
+/* const navLinksArray = Array.from(navLinks);
+console.log(navLinksArray); */
 
 //...........Dad's example.....................
 const titles = ['one', 'two', 'three'];
@@ -135,7 +137,7 @@ navLinks.forEach((link) => {
 
 //adding new navbar links
 //1st new element
-const firstNewLink = document.createElement('a');
+/* const firstNewLink = document.createElement('a');
 firstNewLink.textContent = 'Reviews';
 firstNewLink.style.color = 'green';
 document.querySelector('header nav').appendChild(firstNewLink);
@@ -144,4 +146,4 @@ document.querySelector('header nav').appendChild(firstNewLink);
 const secondNewLink = document.createElement('a');
 secondNewLink.textContent = 'Shop';
 secondNewLink.style.color = 'green';
-document.querySelector('header nav').prepend(secondNewLink);
+document.querySelector('header nav').prepend(secondNewLink); */
