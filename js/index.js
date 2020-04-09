@@ -58,8 +58,11 @@ middleImage.src = 'img/mid-page-accent.jpg';
 //check that it works
 console.log(middleImage);
 
-//Updating text content in the navbar
+//selecting the anchor tags in the navbar
 const navLinks = document.querySelectorAll('header nav a');
+//making sure the correct elements were selected
+console.log(navLinks);
+//Updating text content in the navbar
 navLinks[0].textContent = 'Services';
 navLinks[1].textContent = 'Product';
 navLinks[2].textContent = 'Vision';
