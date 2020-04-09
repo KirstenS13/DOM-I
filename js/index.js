@@ -45,6 +45,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 //checked that my code worked
 console.log(document);
 
+//.....Tasks 1 & 2............
 //Added header img to page
 const headerImage = document.getElementById('cta-img');
 headerImage.src = 'img/header-img.png';
@@ -122,8 +123,17 @@ const footerPara = document.querySelector('footer p');
 //updating text content of footer paragraph
 footerPara.textContent = 'Copyright Great Idea! 2018';
 
-//Adding new content
+//.....Task 3......Adding new content.....
+
 //Changing navbar text color
 navLinks.forEach((link) => {
   link.style.color = 'green';
 });
+
+//adding new navbar links
+//1st new element
+const firstNewLink = document.createElement('a');
+firstNewLink.textContent = 'Reviews';
+document.querySelector('header nav').appendChild(firstNewLink);
+
+//2nd new element
