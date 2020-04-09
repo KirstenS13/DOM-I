@@ -121,3 +121,9 @@ addressLines[2].textContent = 'sales@greatidea.io';
 const footerPara = document.querySelector('footer p');
 //updating text content of footer paragraph
 footerPara.textContent = 'Copyright Great Idea! 2018';
+
+//Adding new content
+//Changing navbar text color
+navLinks.forEach((link) => {
+  link.style.color = 'green';
+});
