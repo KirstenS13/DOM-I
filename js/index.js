@@ -75,7 +75,7 @@ const headerButton = document.querySelector('.cta-text button');
 headerButton.textContent = 'Get Started';
 
 //Selecting all paragraph titles
-const paraHeaders = document.getElementsByClassName('text-content');
+const paraHeaders = document.querySelectorAll('.text-content h4');
 //checking that it selected the correct elements
 console.log(paraHeaders);
 //Updating text content of paragraph titles
@@ -85,5 +85,13 @@ paraHeaders[2].textContent = 'Services';
 paraHeaders[3].textContent = 'Product';
 paraHeaders[4].textContent = 'Vision';
 
-
-const paragraphs = document.querySelectorAll('.text-content p');
+//Selecting all main paragraphs
+const mainParas = document.querySelectorAll('.text-content p');
+//Checking that it selected the correct elements
+console.log(mainParas);
+//Updating the text content for the main paragraphs
+mainParas[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+mainParas[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+mainParas[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+mainParas[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+mainParas[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
