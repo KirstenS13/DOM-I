@@ -95,3 +95,17 @@ mainParas[1].textContent = 'About content elementum magna eros, ac posuere elvit
 mainParas[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 mainParas[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 mainParas[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+//selecting contact title
+const contactTitle = document.querySelector('.contact h4');
+//Updating contact title text content
+contactTitle.textContent = 'Contact';
+
+//selecting contact paragraphs
+const addressLines = document.querySelectorAll('.contact p');
+//checking that the correct elements got selected
+console.log(addressLines);
+//updating text content of contact paragraphs
+addressLines[0].textContent = '123 Way 456 Street Somewhere, USA';
+addressLines[1].textContent = '1 (888) 888-8888';
+addressLines[2].textContent = 'sales@greatidea.io';
